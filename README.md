@@ -5,7 +5,7 @@
 
 Here is second project for the "Full Stack Web Developer Nanodegree".
 
-This project involves converting PDF file to a Responsive Web Site. It was realy fun to replicate a PDF file in HTML and CSS. I think the result is very good
+This project involves converting PDF file to a Responsive Web Site. It was really fun to replicate a PDF file in HTML and CSS. I think the result is very good.
 
 <img src="img/screen1.png" width=50%>
 
