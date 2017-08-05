@@ -6,13 +6,13 @@
 ## Changes made on August 5, 2017 after first review
 
 Initially, the color palette was shown in the portfolio Web site like in mock up PDF, but it was 
-not necessary.  But since I was making the color palette disappear on screen smaller than 900px (because it did not seem important to me to display the color palette on a small screen), I did not respect the rule that states "make sure all contents are visible on all screen sizes".
+not necessary.  But since I was making the color palette disappear on screen smaller than 900px (because it did not seem important to me to display the color palette on a small screen), I did not respect the rule that states "to make sure all contents are visible on all screen sizes".
 
 So to correct the problem, I could:
-- simply eliminate the area on the right where only the color palette appeared;
+- simply eliminate the area on the right where only the color palette appeared for all screen sizes;
 - or move the color palette at the bottom of the web page on screen smaller than 900px.
 
-I chose the second option which is the most difficult.
+I have chosen the second option which is the most difficult.
 
 To do this, I slightly modified the CSS file and the HTML file.
 
@@ -24,7 +24,7 @@ First change. I removed the instruction that made disappear the color palette un
 }
 ```
 
-Then, I give the column direction to `.content` under 900px and I reverse the order of the zones. What 
+Then, I changed the column direction to `.content` under 900px and I reversed the order of the zones. What 
 appeared on the left (colors) and on the right (projects), now appear respectively
 at the top (projects, order = 1) and at the bottom (colors, order = 2).
 
@@ -69,8 +69,6 @@ the bottom.
 
 <img src="img/screen3.png" width=50%>
 
-I believe now to respect the rule that all contents are visible on all screen sizes.
-
 Also, I tried the suggestion to use `srcset` to tell browser to download the most optimized image size for different device / screen size. Here the code:
 
 ```html
@@ -84,7 +82,7 @@ Also, I tried the suggestion to use `srcset` to tell browser to download the mos
   class="poster-image">
 ```
 
-I am not sure that this image is optimized but this is for me a first try.
+I am not sure that this image is optimized but, for me,this is a first try. I will do better next time.
 
 I made these adjustments this Saturday morning, it took about 2 hours.
 
