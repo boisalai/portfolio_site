@@ -43,9 +43,16 @@
         </section>
       </div>
 
-      <div class="content-right">
+      <main class="content-right">
         <div class="poster-section">
+          <!--
           <img src="img/image1.png" alt="XXX" class="poster-image">
+          -->
+          <img  src="img/image1_large.png"
+            sizes="(max-width: 900px) 50vw, (min-width: 901px) 100vw"
+            srcset="img/image1_small.png 900w, img/image1_large.png 1988w"
+            alt="great picture"
+            class="poster-image">
         </div>
 
         <section class="work-items">
@@ -85,7 +92,7 @@
           <article class="work-item">
             <h4 class="hide">Project #3</h4>
             <figure class="work-figure">
-              <a href="http://www.mcescher.com/" target="_blank">
+              <a href="#" target="_blank">
                 <img src="img/image4.png" alt="Reptiles" class="work-image">
               </a>
               <figcaption>
@@ -97,15 +104,19 @@
             </figure>
           </article>
         </section>
+      </main>
+    </div>
 
-        <footer>
-          This page was last modified on 4 August 2017, at 14:13 EDT.
+    <footer class="footer">
+      <div class="footer-left">
+      </div>
+      <div class="footer-right">
+        This page was last modified on 5 August 2017, at 9:48 EDT.
           The contents of this site are covered under the 
           <a href="https://raw.githubusercontent.com/boisalai/movie_trailer_website/master/LICENSE" 
           target="_blank">MIT License</a>.
-        </footer>
       </div>
-    </div>
+    </footer>
     
   </body>
 </html>
